@@ -6,7 +6,7 @@ const CONFIG = {
   HOME_NAV_BACKGROUND_IMG_FIXED: false, // 首页背景图滚动时是否固定，true 则滚动时图片不懂； false则随鼠标滚动
 
   // 是否显示开始阅读按钮
-  SHOW_START_READING: true,
+  SHOW_START_READING: false,
 
   // 菜单配置
   MENU_CATEGORY: true, // 显示分类
@@ -22,7 +22,7 @@ const CONFIG = {
   ARTICLE_COPYRIGHT: true, // 显示文章版权声明
   ARTICLE_RECOMMEND: true, // 文章关联推荐
 
-  WIDGET_LATEST_POSTS: true, // 显示最新文章卡
+  WIDGET_LATEST_POSTS: false, // 显示最新文章卡
   WIDGET_ANALYTICS: false, // 显示统计卡
   WIDGET_TO_TOP: true,
   WIDGET_TO_COMMENT: true, // 跳到评论区
