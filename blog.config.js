@@ -45,40 +45,41 @@ const BLOG = {
     // 'https://npm.elemecdn.com/lxgw-wenkai-webfont@1.6.0/style.css',
     'https://fonts.googleapis.com/css?family=Bitter&display=swap',
     'https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300&display=swap',
-    'https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300&display=swap'
+    'https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300&display=swap',
+    'https://cdn.jsdelivr.net/npm/noto-serif-sc@22.0.0/noto_serif_sc_regular/css.min.css'
   ],
   // 无衬线字体 例如'"LXGW WenKai"'
   FONT_SANS: [
-    // '"LXGW WenKai"',
-//     '"PingFang SC"',
-//     '-apple-system',
-//     'BlinkMacSystemFont',
-//     '"Hiragino Sans GB"',
-//     '"Microsoft YaHei"',
-//     '"Segoe UI Emoji"',
-//     '"Segoe UI Symbol"',
-//     '"Segoe UI"',
-//     '"Noto Sans SC"',
-//     'HarmonyOS_Regular',
-//     '"Helvetica Neue"',
-//     'Helvetica',
-//     '"Source Han Sans SC"',
-//     'Arial',
-//     'sans-serif',
+    '"LXGW WenKai"',
+    '"PingFang SC"',
+    '-apple-system',
+    'BlinkMacSystemFont',
+    '"Hiragino Sans GB"',
+    '"Microsoft YaHei"',
+    '"Segoe UI Emoji"',
+    '"Segoe UI Symbol"',
+    '"Segoe UI"',
+    '"Noto Sans SC"',
+    'HarmonyOS_Regular',
+    '"Helvetica Neue"',
+    'Helvetica',
+    '"Source Han Sans SC"',
+    'Arial',
+    'sans-serif',
     '"Apple Color Emoji"',
       "'Noto Serif SC'"
   ],
   // 衬线字体 例如'"LXGW WenKai"'
   FONT_SERIF: [
-    // '"LXGW WenKai"',
-//     'Bitter',
-//     '"Noto Serif SC"',
-//     'SimSun',
-//     '"Times New Roman"',
-//     'Times',
-//     'serif',
-//     '"Segoe UI Emoji"',
-//     '"Segoe UI Symbol"',
+    '"LXGW WenKai"',
+    'Bitter',
+    '"Noto Serif SC"',
+    'SimSun',
+    '"Times New Roman"',
+    'Times',
+    'serif',
+    '"Segoe UI Emoji"',
+    '"Segoe UI Symbol"',
     '"Apple Color Emoji"',
     'Noto Serif SC'
   ],
@@ -142,7 +143,7 @@ const BLOG = {
   POST_PREVIEW_LINES: 12, // 预览博客行数
   POST_RECOMMEND_COUNT: 6, // 推荐文章数量
   POSTS_PER_PAGE: 12, // post counts per page
-  POSTS_SORT_BY: process.env.NEXT_PUBLIC_POST_SORT_BY || 'notion', // 排序方式 'date'按时间,'notion'由notion控制
+  POSTS_SORT_BY: process.env.NEXT_PUBLIC_POST_SORT_BY || 'date', // 排序方式 'date'按时间,'notion'由notion控制
 
   ALGOLIA_APP_ID: process.env.NEXT_PUBLIC_ALGOLIA_APP_ID || null, // 在这里查看 https://dashboard.algolia.com/account/api-keys/
   ALGOLIA_ADMIN_APP_KEY: process.env.ALGOLIA_ADMIN_APP_KEY || null, // 管理后台的KEY，不要暴露在代码中，在这里查看 https://dashboard.algolia.com/account/api-keys/
@@ -175,7 +176,7 @@ const BLOG = {
   // 静态彩带特效
   RIBBON: process.env.NEXT_PUBLIC_RIBBON || false, // 开关
   // 星空雨特效 黑夜模式才会生效
-  STARRY_SKY: process.env.NEXT_PUBLIC_STARRY_SKY || false, // 开关
+  STARRY_SKY: process.env.NEXT_PUBLIC_STARRY_SKY || true, // 开关
 
   //   ********挂件组件相关********
   // Chatbase
